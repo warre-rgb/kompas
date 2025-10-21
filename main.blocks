@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="A{?{ZaYkxhN^R:z5p|bi">waarde kompas</variable></variables><block type="input_compass_calibrate" id="5jzGDEF,lo+{B{hi1?3x" disabled-reasons="pxt_automatic_disabled" x="243" y="-430"></block><block type="pxt-on-start" id="F@N3dqI3;#$gcvQIniss" x="0" y="0"></block><block type="device_forever" id="{eArIoIRPgmQF-SAK5ab" x="226" y="-1"><statement name="HANDLER"><block type="controls_if" id="Mi-h$^`jv^![FtNt,()L"><value name="IF0"><shadow type="logic_boolean" id="M5cQL%CzV?|59iV@m/!V" disabled-reasons="pxt_automatic_disabled"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="(?X.EMoIht!X+}JU[;`c"><field name="OP">LT</field><value name="A"><shadow type="math_number" id="D#D1$*fSD4L-8l43`;Jc" disabled-reasons="pxt_automatic_disabled"><field name="NUM">0</field></shadow><block type="device_get_rotation" id="xXh,S6g(CqomsP|c^U*`"><field name="NAME">Rotation.Roll</field></block></value><value name="B"><shadow type="math_number" id="_n]h_,CIC+2J~$f~_`qk"><field name="NUM">5</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="pqQuzV/8EOC(/16h6xCa"><field name="LEDS">`
+        # . . . # 
+        # # . . # 
+        # . # . # 
+        # . . # # 
+        # . . . #
+        `</field></block></statement><next><block type="controls_if" id="2bgCqmWs5NNyjiN=/Yu2"><value name="IF0"><shadow type="logic_boolean" id=",+}uX*b7:G`j|8U_jw`*" disabled-reasons="pxt_automatic_disabled"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id=",.kwQ{.DJG7a3jOU$hY,"><field name="OP">LT</field><value name="A"><shadow type="math_number" id="B.|Bxpt[LCC`[(uuKC#]" disabled-reasons="pxt_automatic_disabled"><field name="NUM">0</field></shadow><block type="device_get_rotation" id="1.z+SSpWY;H(x7#J;e9r"><field name="NAME">Rotation.Roll</field></block></value><value name="B"><shadow type="math_number" id="BKW@_[BpB(lA+`8q:,H="><field name="NUM">335</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="fRd!!]wR1J-.S5YU4poX"><field name="LEDS">`
+        # . . . # 
+        # . . . # 
+        # . # . # 
+        # # . # # 
+        # . . . #
+        `</field></block></statement></block></next></block></statement></block></xml>
